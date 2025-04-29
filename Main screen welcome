@@ -1,0 +1,19 @@
+void showWelcome() {
+    printf("Welcome to the game!\n");
+    printf("Here you will guess a random 5 letter word.\n");
+    printf("Green = right letter + right spot.\n");
+    printf("Yellow = right letter, wrong spot.\n");
+    printf("Red = wrong letter.\n");
+    printf("You have 6 tries. Good Luck!\n\n");
+}
+
+
+
+
+
+void showMenu() {
+    printf("----- MENU -----\n");
+    printf("1. Start Game\n");
+    printf("2. Leaderboard\n");
+    printf("3. Exit\n");
+}
